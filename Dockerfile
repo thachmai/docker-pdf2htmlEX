@@ -26,7 +26,7 @@ RUN \
 	&& cmake . \
 	&& make \
 	&& make install \
-	&& mkdir \src
+	&& mkdir /src
 
 WORKDIR /src
 ENTRYPOINT /usr/local/bin/pdf2htmlEX
