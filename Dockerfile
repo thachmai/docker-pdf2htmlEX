@@ -29,4 +29,4 @@ RUN \
 	&& mkdir /src
 
 WORKDIR /src
-CMD ["/usr/local/bin/pdf2htmlEX"]
+ENTRYPOINT ["/usr/local/bin/pdf2htmlEX"]
